@@ -1,0 +1,3 @@
+[console_scripts]
+rr_manipulator = serial_manipulator.rr_manipulator:main
+

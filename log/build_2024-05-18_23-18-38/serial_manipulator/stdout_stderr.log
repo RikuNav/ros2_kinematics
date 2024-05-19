@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/serial_manipulator/serial_manipulator.egg-info/PKG-INFO
+writing dependency_links to ../../build/serial_manipulator/serial_manipulator.egg-info/dependency_links.txt
+writing entry points to ../../build/serial_manipulator/serial_manipulator.egg-info/entry_points.txt
+writing requirements to ../../build/serial_manipulator/serial_manipulator.egg-info/requires.txt
+writing top-level names to ../../build/serial_manipulator/serial_manipulator.egg-info/top_level.txt
+reading manifest file '../../build/serial_manipulator/serial_manipulator.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/serial_manipulator/serial_manipulator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying serial_manipulator/submodules/robo_class.py -> /home/lpm/ros2_kinematics/build/serial_manipulator/build/lib/serial_manipulator/submodules
+running install
+running install_lib
+copying /home/lpm/ros2_kinematics/build/serial_manipulator/build/lib/serial_manipulator/submodules/robo_class.py -> /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules
+byte-compiling /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/robo_class.py to robo_class.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/serial_manipulator/serial_manipulator.egg-info to /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rr_manipulator script to /home/lpm/ros2_kinematics/install/serial_manipulator/lib/serial_manipulator
+writing list of installed files to '/home/lpm/ros2_kinematics/build/serial_manipulator/install.log'

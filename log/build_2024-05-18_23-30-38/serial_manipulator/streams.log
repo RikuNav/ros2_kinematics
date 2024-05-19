@@ -1,0 +1,28 @@
+[1.925s] Invoking command in '/home/lpm/ros2_kinematics/src/serial_manipulator': PYTHONPATH=/home/lpm/ros2_kinematics/build/serial_manipulator/prefix_override:/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_manipulator build --build-base /home/lpm/ros2_kinematics/build/serial_manipulator/build install --record /home/lpm/ros2_kinematics/build/serial_manipulator/install.log --single-version-externally-managed install_data
+[2.675s] running egg_info
+[2.677s] writing ../../build/serial_manipulator/serial_manipulator.egg-info/PKG-INFO
+[2.677s] writing dependency_links to ../../build/serial_manipulator/serial_manipulator.egg-info/dependency_links.txt
+[2.678s] writing entry points to ../../build/serial_manipulator/serial_manipulator.egg-info/entry_points.txt
+[2.678s] writing requirements to ../../build/serial_manipulator/serial_manipulator.egg-info/requires.txt
+[2.678s] writing top-level names to ../../build/serial_manipulator/serial_manipulator.egg-info/top_level.txt
+[2.683s] reading manifest file '../../build/serial_manipulator/serial_manipulator.egg-info/SOURCES.txt'
+[2.684s] adding license file 'LICENSE'
+[2.686s] writing manifest file '../../build/serial_manipulator/serial_manipulator.egg-info/SOURCES.txt'
+[2.686s] running build
+[2.686s] running build_py
+[2.686s] copying serial_manipulator/rr_manipulator.py -> /home/lpm/ros2_kinematics/build/serial_manipulator/build/lib/serial_manipulator
+[2.687s] copying serial_manipulator/submodules/functions.py -> /home/lpm/ros2_kinematics/build/serial_manipulator/build/lib/serial_manipulator/submodules
+[2.688s] running install
+[2.689s] running install_lib
+[2.691s] copying /home/lpm/ros2_kinematics/build/serial_manipulator/build/lib/serial_manipulator/rr_manipulator.py -> /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator
+[2.691s] copying /home/lpm/ros2_kinematics/build/serial_manipulator/build/lib/serial_manipulator/submodules/functions.py -> /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules
+[2.692s] byte-compiling /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/rr_manipulator.py to rr_manipulator.cpython-310.pyc
+[2.694s] byte-compiling /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/functions.py to functions.cpython-310.pyc
+[2.696s] running install_data
+[2.697s] running install_egg_info
+[2.700s] removing '/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator-0.0.0-py3.10.egg-info' (and everything under it)
+[2.701s] Copying ../../build/serial_manipulator/serial_manipulator.egg-info to /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator-0.0.0-py3.10.egg-info
+[2.703s] running install_scripts
+[2.749s] Installing rr_manipulator script to /home/lpm/ros2_kinematics/install/serial_manipulator/lib/serial_manipulator
+[2.750s] writing list of installed files to '/home/lpm/ros2_kinematics/build/serial_manipulator/install.log'
+[2.794s] Invoked command in '/home/lpm/ros2_kinematics/src/serial_manipulator' returned '0': PYTHONPATH=/home/lpm/ros2_kinematics/build/serial_manipulator/prefix_override:/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_manipulator build --build-base /home/lpm/ros2_kinematics/build/serial_manipulator/build install --record /home/lpm/ros2_kinematics/build/serial_manipulator/install.log --single-version-externally-managed install_data
