@@ -10,10 +10,15 @@ class RRManipulator(Node):
     def __init__(self):
         super().__init__('rr_manipulator')
 
-        offsets = {'1': ["R", [0, 1, 1, 90]],
-                   '2': ["R", [0, 1, 1, 0]]}
+        offsets = {'1': ['R', [0, 243.3, 0, -90]],
+                 '2': ['R', [-90, 0, 200, 180]],
+                 '3': ['R', [-90, 0, 87, 90]],
+                 '4': ['R', [0, 227.6, 0, 90]],
+                 '5': ['R', [0, 0, 0, -90]],
+                 '6': ['R', [0, 61.5, 0, 0]]}
 
         self.change = True
+        self.len_units = 'mm'
         self.robot = SimpleRobot(**offsets)
 
         self.subscription = self.create_subscription(Float64MultiArray, 'joint_data', self.joint_callback, 10)
@@ -33,9 +38,9 @@ class RRManipulator(Node):
     def timer_callback(self):
         for idx, output in enumerate(self.robot.outputs):
             self.joint.header.stamp = self.get_clock().now().to_msg()
-            self.joint.transform.translation.x = output[0, 3]
-            self.joint.transform.translation.y = output[1, 3]
-            self.joint.transform.translation.z = output[2, 3]
+            self.joint.transform.translation.x = (output[0, 3] / 100 if self.len_units == 'mm' else output[0, 3])
+            self.joint.transform.translation.y = (output[1, 3] / 100 if self.len_units == 'mm' else output[1, 3])
+            self.joint.transform.translation.z = (output[2, 3] / 100 if self.len_units == 'mm' else output[2, 3])
 
             q = quaternion_from_matrix(self.robot.outputs[idx])
             self.joint.transform.rotation.x = q[0]

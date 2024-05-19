@@ -1,10 +1,10 @@
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/__init__.py
-/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/rr_manipulator.py
+/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/dynamic_manipulator.py
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/__init__.py
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/functions.py
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/robo_class.py
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/__pycache__/__init__.cpython-310.pyc
-/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/__pycache__/rr_manipulator.cpython-310.pyc
+/home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/__pycache__/dynamic_manipulator.cpython-310.pyc
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/__pycache__/__init__.cpython-310.pyc
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/__pycache__/functions.cpython-310.pyc
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator/submodules/__pycache__/robo_class.cpython-310.pyc
@@ -17,4 +17,4 @@
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator-0.0.0-py3.10.egg-info/top_level.txt
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator-0.0.0-py3.10.egg-info/PKG-INFO
 /home/lpm/ros2_kinematics/install/serial_manipulator/lib/python3.10/site-packages/serial_manipulator-0.0.0-py3.10.egg-info/entry_points.txt
-/home/lpm/ros2_kinematics/install/serial_manipulator/lib/serial_manipulator/rr_manipulator
+/home/lpm/ros2_kinematics/install/serial_manipulator/lib/serial_manipulator/dynamic_manipulator

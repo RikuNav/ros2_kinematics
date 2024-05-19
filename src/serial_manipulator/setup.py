@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'rr_manipulator = serial_manipulator.rr_manipulator:main'
+            'dynamic_manipulator = serial_manipulator.dynamic_manipulator:main'
         ],
     },
 )

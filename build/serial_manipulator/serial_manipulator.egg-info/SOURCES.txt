@@ -11,7 +11,7 @@ setup.py
 ../../build/serial_manipulator/serial_manipulator.egg-info/zip-safe
 resource/serial_manipulator
 serial_manipulator/__init__.py
-serial_manipulator/rr_manipulator.py
+serial_manipulator/dynamic_manipulator.py
 serial_manipulator/submodules/__init__.py
 serial_manipulator/submodules/functions.py
 serial_manipulator/submodules/robo_class.py
